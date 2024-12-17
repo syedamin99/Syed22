@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+   <style type="text/css">
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #85FFDC;
+            color:#333;
+        }
+
+        header {
+            background: #16a085;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h1 {
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+
+        h2 {
+            opacity: 0;
+            transform: translateY(-20px);
+            animation: slideIn 1s forwards;
+            animation-delay: 1s;
+        }
+
+        p {
+            opacity: 0;
+            transform: translateY(-20px);
+            animation: slideIn 1s forwards;
+            animation-delay: 1s;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background:#16a085 ;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>	
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="biodata.html">My Biodata</a></li>
+                <li><a href="video.html">My Video</a></li>
+                <li><a href="comments.html">Your Comments</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Projects</h2>
+		 <ul>
+            <li>Project 1: Website Development</li>
+            <li>Project 2: Animation Design</li>
+            <li>Project 3: AR Project</li>
+        </ul>
+    </main>
+	
+	
+	<h2>My Timetable</h2>
+	<table width="500" border="1">
+  <tbody>
+    <tr>
+      <th scope="col">Day</th>
+      <th scope="col">Activity</th>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>Study Animation</td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>Project Work</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>Online Learning</td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>Group Study</td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td>Rest and Review</td>
+    </tr>
+  </tbody>
+</table>
+	
+    <footer>
+        <p>&copy; 2024 My Personal Website</p>
+    </footer>
+</body>
+</html>

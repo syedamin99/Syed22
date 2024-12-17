@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Biodata</title>
+	 <style type="text/css">
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #85FFDC;
+            color:#333;
+        }
+
+        header {
+            background: #16a085;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h1 {
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: antiquewhite;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            opacity: 0;
+            transform: translateY(-20px);
+            animation: slideIn 1s forwards;
+            animation-delay: 2s;
+        }
+
+        p {
+            opacity: 0;
+            transform: translateY(-20px);
+            animation: slideIn 1s forwards;
+            animation-delay: 2s;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background:#16a085 ;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>	
+</head>
+<body>
+    <header>
+        <h1>My Biodata</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">My Portfolio</a></li>
+                <li><a href="video.html">My Video</a></li>
+                <li><a href="comments.html">Your Comments</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+        <h2>Personal Information</h2>
+        <p><strong>Name:</strong> Syed Aminuddin Bin Syed Anuar</p>
+        <p><strong>Date of Birth:</strong> April 22, 1999</p>
+        <p><strong>Email:</strong> syedaminuddin36@gmail.com</p>
+        <p><strong>Phone:</strong> +6013-8775064</p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p><strong>Universiti Malaysia Sabah</strong> - Bachelor of Multimedia Technology (Expected Graduation: 2026)</p>
+        <p><strong>High School:</strong> SMK Kuhara (Graduated: 2017)</p>
+    </section>
+
+    <section>
+        <h2>Work Experience</h2>
+        <p><strong>Internship:</strong> Etiqa Company (October 2019 - April 2020)</p>
+        <ul>
+            <li>Assisted website projects.</li>
+            <li>Participated in video editing.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>Graphic Design</li>
+            <li>Video Editing</li>
+            <li>Web Development (HTML, CSS, JavaScript)</li>
+            <li>Adobe Creative Suite (Photoshop, Premiere Pro)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Hobby</h2>
+        <ul>
+            <li>Hiking</li>
+            <li>Playing Football</li>
+            <li>Exploring New Technologies</li>
+            <li>Traveling</li>
+        </ul>
+    </section>
+    </main>
+	
+    <footer>
+        <p>&copy; 2024 My Personal Website</p>
+    </footer>
+	
+</body>
+</html>

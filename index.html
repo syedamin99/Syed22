@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #85FFDC;
+            color:#333;
+        }
+
+        header {
+            background: #16a085;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+
+        h2 {
+            opacity: 0;
+            transform: translateY(-20px);
+            animation: slideIn 1s forwards;
+            animation-delay: 1s;
+        }
+
+        p {
+            opacity: 0;
+            transform: translateY(-20px);
+            animation: slideIn 1s forwards;
+            animation-delay: 1s;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background:#16a085 ;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>	
+</head>
+	
+<body>
+
+<header>
+  <h1>Welcome to My Personal Website</h1>
+  <nav>
+    <ul>
+      <li><a href="biodata.html">My Biodata</a></li>
+      <li><a href="portfolio.html">My Portfolio</a></li>
+      <li><a href="video.html">My Video</a></li>
+      <li><a href="comments.html">Your Comments</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+	
+  <h2>About Me</h2>
+  <img src="../../../../Pictures/Saved Pictures/ICON.jpg" alt="My Profile Picture" width="100" height="auto">
+	<section>
+  <p>Assalamualaikum and Hello! My name is Syed Aminuddin Bin Syed Anuar, and I am a Multimedia student. I have a passion for designing visual content. I am from Universiti Malaysia Sabah, studying a degree in Multimedia Technology. My study will take four years long and I am in the third year now. I hope to gain experience in my major. In my free time, I enjoy hiking, playing football, and exploring new technologies. I am excited to connect with others and continue learning in my field. Thank you!</p>
+	</section>
+</main>
+<footer>
+  <p>&copy; 2024 My Personal Website</p>
+</footer>
+</body>
+</html>
